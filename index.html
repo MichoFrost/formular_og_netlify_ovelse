@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Burger menu-øvelse</title>
+  <link rel="stylesheet" href="css/demo.css" />
+  <!-- Ret i nedenståendde stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header class="banner">
+    <div class="logo">
+      <a href="#0">Logo</a>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <header>
+        <h2>Kontakt os</h2>
+        <p>
+          Udfyld kontaktformularen for at kontakte os. Vi glæder os til at
+          høre fra dig.
+        </p>
+      </header>
+
+      <form>
+        <!-- Formular-indhold -->
+        <div class="form">
+          <form name="kontakt" netlify>
+            <div class="formfield">
+              <label for="fornavn">Fornavn</label>
+              <input type="text" id="fornavn" name="userfirstname">
+            </div>
+            <div class="formfield">
+              <label for="efternavn">Efternavn</label>
+              <input type="text" id="efternavn" name="userlastname">
+            </div>
+            <div class="formfield">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <select name="study" id="1">
+              <option value="underviser">Underviser</option>
+              <option value="studerende">Studerende</option>
+            </select>
+            <div class="formfield">
+              <label for="comments">Kommentarer</label>
+              <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>
